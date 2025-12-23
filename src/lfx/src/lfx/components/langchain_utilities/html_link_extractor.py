@@ -10,7 +10,7 @@ from lfx.inputs.inputs import BoolInput, DataInput, StrInput
 class HtmlLinkExtractorComponent(LCDocumentTransformerComponent):
     display_name = "HTML Link Extractor"
     description = "Extract hyperlinks from HTML content."
-    documentation = "https://python.langchain.com/v0.2/api_reference/community/graph_vectorstores/langchain_community.graph_vectorstores.extractors.html_link_extractor.HtmlLinkExtractor.html"
+    documentation = "https://python.langchain_classic.com/v0.2/api_reference/community/graph_vectorstores/langchain_community.graph_vectorstores.extractors.html_link_extractor.HtmlLinkExtractor.html"
     name = "HtmlLinkExtractor"
     icon = "LangChain"
 

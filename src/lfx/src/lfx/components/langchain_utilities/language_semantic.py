@@ -1,4 +1,4 @@
-from langchain.docstore.document import Document
+from langchain_classic.docstore.document import Document
 from langchain_experimental.text_splitter import SemanticChunker
 
 from lfx.base.textsplitters.model import LCTextSplitterComponent
@@ -19,7 +19,7 @@ class SemanticTextSplitterComponent(LCTextSplitterComponent):
     display_name: str = "Semantic Text Splitter"
     name: str = "SemanticTextSplitter"
     description: str = "Split text into semantically meaningful chunks using semantic similarity."
-    documentation = "https://python.langchain.com/docs/how_to/semantic-chunker/"
+    documentation = "https://python.langchain_classic.com/docs/how_to/semantic-chunker/"
     beta = True  # this component is beta because it is imported from langchain_experimental
     icon = "LangChain"
 

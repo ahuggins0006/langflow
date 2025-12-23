@@ -8,7 +8,7 @@ from lfx.io import DropdownInput, FloatInput, MessageTextInput, SecretStrInput
 class QianfanChatEndpointComponent(LCModelComponent):
     display_name: str = "Qianfan"
     description: str = "Generate text using Baidu Qianfan LLMs."
-    documentation: str = "https://python.langchain.com/docs/integrations/chat/baidu_qianfan_endpoint"
+    documentation: str = "https://python.langchain_classic.com/docs/integrations/chat/baidu_qianfan_endpoint"
     icon = "BaiduQianfan"
     name = "BaiduQianfanChatModel"
 
@@ -44,7 +44,7 @@ class QianfanChatEndpointComponent(LCModelComponent):
                 "ERNIE-Speed-8K",
                 "Yi-34B-Chat",
             ],
-            info="https://python.langchain.com/docs/integrations/chat/baidu_qianfan_endpoint",
+            info="https://python.langchain_classic.com/docs/integrations/chat/baidu_qianfan_endpoint",
             value="ERNIE-4.0-8K",
         ),
         SecretStrInput(

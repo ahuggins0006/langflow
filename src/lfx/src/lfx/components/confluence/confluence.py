@@ -9,7 +9,7 @@ from lfx.schema.data import Data
 class ConfluenceComponent(Component):
     display_name = "Confluence"
     description = "Confluence wiki collaboration platform"
-    documentation = "https://python.langchain.com/v0.2/docs/integrations/document_loaders/confluence/"
+    documentation = "https://python.langchain_classic.com/v0.2/docs/integrations/document_loaders/confluence/"
     trace_type = "tool"
     icon = "Confluence"
     name = "Confluence"

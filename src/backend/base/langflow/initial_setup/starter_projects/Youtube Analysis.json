@@ -298,7 +298,7 @@
                   },
                   {
                     "name": "langchain_core",
-                    "version": "0.3.75"
+                    "version": "1.0.5"
                   }
                 ],
                 "total_dependencies": 3
@@ -529,7 +529,7 @@
                   },
                   {
                     "name": "googleapiclient",
-                    "version": "2.154.0"
+                    "version": "2.187.0"
                   },
                   {
                     "name": "lfx",
@@ -764,7 +764,7 @@
                 "dependencies": [
                   {
                     "name": "langchain_core",
-                    "version": "0.3.75"
+                    "version": "1.0.5"
                   },
                   {
                     "name": "pydantic",
@@ -1922,7 +1922,7 @@
                   },
                   {
                     "name": "langchain_community",
-                    "version": "0.3.21"
+                    "version": "0.4.1"
                   },
                   {
                     "name": "lfx",

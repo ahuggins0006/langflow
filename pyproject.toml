@@ -2,7 +2,7 @@
 name = "langflow"
 version = "1.6.0"
 description = "A Python package with a built-in web application"
-requires-python = ">=3.10,<3.14"
+requires-python = ">=3.11,<4.0"
 license = "MIT"
 keywords = ["nlp", "langchain", "openai", "gpt", "gui"]
 readme = "README.md"
@@ -123,6 +123,8 @@ dependencies = [
     "langchain-google-community>=3.0.1",
     "langchain-ollama>=1.0.0",
     "langchain-sambanova>=1.0.0",
+    "deepagents>=0.2.8",
+    "langgraph>=1.0.1",
 ]
 
 [dependency-groups]

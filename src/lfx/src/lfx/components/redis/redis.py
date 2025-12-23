@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from langchain.text_splitter import CharacterTextSplitter
+from langchain_classic.text_splitter import CharacterTextSplitter
 from langchain_community.vectorstores.redis import Redis
 
 from lfx.base.vectorstores.model import LCVectorStoreComponent, check_cached_vector_store

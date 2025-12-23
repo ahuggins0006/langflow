@@ -114,7 +114,7 @@ class LangChainHubPromptComponent(Component):
         return prompt
 
     def _fetch_langchain_hub_template(self):
-        import langchain.hub
+        import langchain_classic.hub
 
         # Check if the api key is provided
         if not self.langchain_api_key:
@@ -123,4 +123,4 @@ class LangChainHubPromptComponent(Component):
             raise ValueError(msg)
 
         # Pull the prompt from LangChain Hub
-        return langchain.hub.pull(self.langchain_hub_prompt, api_key=self.langchain_api_key)
+        return langchain_classic.hub.pull(self.langchain_hub_prompt, api_key=self.langchain_api_key)

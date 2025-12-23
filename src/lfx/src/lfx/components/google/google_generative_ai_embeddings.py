@@ -23,7 +23,9 @@ class GoogleGenerativeAIEmbeddingsComponent(Component):
         "Connect to Google's generative AI embeddings service using the GoogleGenerativeAIEmbeddings class, "
         "found in the langchain-google-genai package."
     )
-    documentation: str = "https://python.langchain.com/v0.2/docs/integrations/text_embedding/google_generative_ai/"
+    documentation: str = (
+        "https://python.langchain_classic.com/v0.2/docs/integrations/text_embedding/google_generative_ai/"
+    )
     icon = "GoogleGenerativeAI"
     name = "Google Generative AI Embeddings"
 

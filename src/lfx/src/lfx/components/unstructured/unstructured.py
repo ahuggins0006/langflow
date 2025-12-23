@@ -11,7 +11,7 @@ class UnstructuredComponent(BaseFileComponent):
         "Uses Unstructured.io API to extract clean text from raw source documents. Supports a wide range of file types."
     )
     documentation = (
-        "https://python.langchain.com/api_reference/unstructured/document_loaders/"
+        "https://python.langchain_classic.com/api_reference/unstructured/document_loaders/"
         "langchain_unstructured.document_loaders.UnstructuredLoader.html"
     )
     trace_type = "tool"

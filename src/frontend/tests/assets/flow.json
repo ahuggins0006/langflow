@@ -47,7 +47,7 @@
                 "password": false,
                 "name": "callbacks",
                 "advanced": false,
-                "type": "langchain.callbacks.base.BaseCallbackHandler",
+                "type": "langchain_classic.callbacks.base.BaseCallbackHandler",
                 "list": true
               },
               "client": {

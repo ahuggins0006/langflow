@@ -1,4 +1,4 @@
-from langchain.chains import LLMCheckerChain
+from langchain_classic.chains import LLMCheckerChain
 
 from lfx.base.chains.model import LCChainComponent
 from lfx.inputs.inputs import HandleInput, MultilineInput
@@ -8,7 +8,7 @@ from lfx.schema import Message
 class LLMCheckerChainComponent(LCChainComponent):
     display_name = "LLMCheckerChain"
     description = "Chain for question-answering with self-verification."
-    documentation = "https://python.langchain.com/docs/modules/chains/additional/llm_checker"
+    documentation = "https://python.langchain_classic.com/docs/modules/chains/additional/llm_checker"
     name = "LLMCheckerChain"
     legacy: bool = True
     icon = "LangChain"

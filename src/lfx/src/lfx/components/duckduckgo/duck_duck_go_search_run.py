@@ -12,7 +12,7 @@ class DuckDuckGoSearchComponent(Component):
 
     display_name = "DuckDuckGo Search"
     description = "Search the web using DuckDuckGo with customizable result limits"
-    documentation = "https://python.langchain.com/docs/integrations/tools/ddg"
+    documentation = "https://python.langchain_classic.com/docs/integrations/tools/ddg"
     icon = "DuckDuckGo"
 
     inputs = [

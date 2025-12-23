@@ -1,14 +1,14 @@
 from typing import Any
 from uuid import UUID
 
-from langchain.callbacks.base import AsyncCallbackHandler
+from langchain_classic.callbacks.base import AsyncCallbackHandler
 from langchain_core.agents import AgentAction, AgentFinish
 
 from lfx.schema.log import LogFunctionType
 
 
 class AgentAsyncHandler(AsyncCallbackHandler):
-    """Async callback handler that can be used to handle callbacks from langchain."""
+    """Async callback handler that can be used to handle callbacks from langchain_classic."""
 
     def __init__(self, log_function: LogFunctionType | None = None):
         self.log_function = log_function

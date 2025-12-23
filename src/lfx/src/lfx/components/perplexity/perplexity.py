@@ -10,7 +10,7 @@ from lfx.io import DropdownInput, FloatInput, IntInput, SecretStrInput, SliderIn
 class PerplexityComponent(LCModelComponent):
     display_name = "Perplexity"
     description = "Generate text using Perplexity LLMs."
-    documentation = "https://python.langchain.com/v0.2/docs/integrations/chat/perplexity/"
+    documentation = "https://python.langchain_classic.com/v0.2/docs/integrations/chat/perplexity/"
     icon = "Perplexity"
     name = "PerplexityModel"
 

@@ -748,7 +748,7 @@
                 "dependencies": [
                   {
                     "name": "langchain_text_splitters",
-                    "version": "0.3.9"
+                    "version": "1.0.0"
                   },
                   {
                     "name": "lfx",
@@ -1384,7 +1384,7 @@
                 "dependencies": [
                   {
                     "name": "langchain_openai",
-                    "version": "0.3.23"
+                    "version": "1.0.3"
                   },
                   {
                     "name": "lfx",
@@ -1933,7 +1933,7 @@
                 "dependencies": [
                   {
                     "name": "langchain_openai",
-                    "version": "0.3.23"
+                    "version": "1.0.3"
                   },
                   {
                     "name": "lfx",
@@ -3353,11 +3353,11 @@
                   },
                   {
                     "name": "langchain_astradb",
-                    "version": "0.6.0"
+                    "version": "1.0.0"
                   },
                   {
                     "name": "langchain_core",
-                    "version": "0.3.75"
+                    "version": "1.0.5"
                   },
                   {
                     "name": "lfx",
@@ -4159,11 +4159,11 @@
                   },
                   {
                     "name": "langchain_astradb",
-                    "version": "0.6.0"
+                    "version": "1.0.0"
                   },
                   {
                     "name": "langchain_core",
-                    "version": "0.3.75"
+                    "version": "1.0.5"
                   },
                   {
                     "name": "lfx",

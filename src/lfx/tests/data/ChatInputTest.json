@@ -130,7 +130,7 @@
                         ],
                         "name": "",
                         "display_name": "PromptTemplate",
-                        "documentation": "https://python.langchain.com/docs/modules/model_io/prompts/prompt_templates/",
+                        "documentation": "https://python.langchain_classic.com/docs/modules/model_io/prompts/prompt_templates/",
                         "custom_fields": {
                             "": [
                                 "input"
@@ -240,7 +240,7 @@
                                 "advanced": false,
                                 "dynamic": false,
                                 "info": "",
-                                "type": "langchain.callbacks.base.BaseCallbackHandler",
+                                "type": "langchain_classic.callbacks.base.BaseCallbackHandler",
                                 "list": true
                             },
                             "llm": {
@@ -388,7 +388,7 @@
                         "display_name": "LLMChain",
                         "custom_fields": {},
                         "output_types": [],
-                        "documentation": "https://python.langchain.com/docs/modules/chains/foundational/llm_chain",
+                        "documentation": "https://python.langchain_classic.com/docs/modules/chains/foundational/llm_chain",
                         "beta": false,
                         "error": null
                     },
@@ -422,7 +422,7 @@
                                 "advanced": false,
                                 "dynamic": false,
                                 "info": "",
-                                "type": "langchain.callbacks.base.BaseCallbackHandler",
+                                "type": "langchain_classic.callbacks.base.BaseCallbackHandler",
                                 "list": true
                             },
                             "cache": {
@@ -693,7 +693,7 @@
                         "display_name": "ChatOpenAI",
                         "custom_fields": {},
                         "output_types": [],
-                        "documentation": "https://python.langchain.com/docs/modules/model_io/models/chat/integrations/openai",
+                        "documentation": "https://python.langchain_classic.com/docs/modules/model_io/models/chat/integrations/openai",
                         "beta": false,
                         "error": null
                     },

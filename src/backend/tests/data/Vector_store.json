@@ -424,7 +424,7 @@
                             "Embeddings"
                         ],
                         "display_name": "OpenAIEmbeddings",
-                        "documentation": "https://python.langchain.com/docs/modules/data_connection/text_embedding/integrations/openai"
+                        "documentation": "https://python.langchain_classic.com/docs/modules/data_connection/text_embedding/integrations/openai"
                     },
                     "id": "OpenAIEmbeddings-lge2J",
                     "value": null
@@ -681,7 +681,7 @@
                         "display_name": "Chroma",
                         "custom_fields": {},
                         "output_types": [],
-                        "documentation": "https://python.langchain.com/docs/modules/data_connection/vectorstores/integrations/chroma"
+                        "documentation": "https://python.langchain_classic.com/docs/modules/data_connection/vectorstores/integrations/chroma"
                     },
                     "id": "Chroma-UK4a8",
                     "value": null
@@ -809,7 +809,7 @@
                         "output_types": [
                             "Document"
                         ],
-                        "documentation": "https://python.langchain.com/docs/modules/data_connection/document_transformers/text_splitters/recursive_text_splitter"
+                        "documentation": "https://python.langchain_classic.com/docs/modules/data_connection/document_transformers/text_splitters/recursive_text_splitter"
                     },
                     "id": "RecursiveCharacterTextSplitter-AUWrU",
                     "value": null
@@ -874,7 +874,7 @@
                         "output_types": [
                             "Document"
                         ],
-                        "documentation": "https://python.langchain.com/docs/modules/data_connection/document_loaders/integrations/web_base"
+                        "documentation": "https://python.langchain_classic.com/docs/modules/data_connection/document_loaders/integrations/web_base"
                     },
                     "id": "WebBaseLoader-aUAEE",
                     "value": null
@@ -909,7 +909,7 @@
                                 "advanced": false,
                                 "dynamic": false,
                                 "info": "",
-                                "type": "langchain.callbacks.base.BaseCallbackHandler",
+                                "type": "langchain_classic.callbacks.base.BaseCallbackHandler",
                                 "list": true
                             },
                             "cache": {
@@ -1180,7 +1180,7 @@
                         "display_name": "ChatOpenAI",
                         "custom_fields": {},
                         "output_types": [],
-                        "documentation": "https://python.langchain.com/docs/modules/model_io/models/chat/integrations/openai"
+                        "documentation": "https://python.langchain_classic.com/docs/modules/model_io/models/chat/integrations/openai"
                     },
                     "id": "ChatOpenAI-U4mZ2",
                     "value": null

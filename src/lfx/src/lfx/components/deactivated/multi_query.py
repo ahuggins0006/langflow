@@ -1,5 +1,5 @@
-from langchain.prompts import PromptTemplate
-from langchain.retrievers import MultiQueryRetriever
+from langchain_classic.prompts import PromptTemplate
+from langchain_classic.retrievers import MultiQueryRetriever
 
 from lfx.custom.custom_component.custom_component import CustomComponent
 from lfx.field_typing import BaseRetriever, LanguageModel, Text
@@ -9,7 +9,9 @@ from lfx.inputs.inputs import HandleInput, StrInput
 class MultiQueryRetrieverComponent(CustomComponent):
     display_name = "MultiQueryRetriever"
     description = "Initialize from llm using default template."
-    documentation = "https://python.langchain.com/docs/modules/data_connection/retrievers/how_to/MultiQueryRetriever"
+    documentation = (
+        "https://python.langchain_classic.com/docs/modules/data_connection/retrievers/how_to/MultiQueryRetriever"
+    )
     name = "MultiQueryRetriever"
     legacy = True
 

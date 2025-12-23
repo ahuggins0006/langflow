@@ -2,7 +2,7 @@ import ast
 import json
 from typing import Any
 
-from langchain.agents import Tool
+from langchain_classic.agents import Tool
 from langchain_core.tools import StructuredTool
 from pydantic.v1 import Field, create_model
 from pydantic.v1.fields import Undefined
@@ -32,7 +32,7 @@ class PythonCodeStructuredTool(LCToolComponent):
     ]
     display_name = "Python Code Structured"
     description = "structuredtool dataclass code to tool"
-    documentation = "https://python.langchain.com/docs/modules/tools/custom_tools/#structuredtool-dataclass"
+    documentation = "https://python.langchain_classic.com/docs/modules/tools/custom_tools/#structuredtool-dataclass"
     name = "PythonCodeStructuredTool"
     icon = "Python"
     field_order = ["name", "description", "tool_code", "return_direct", "tool_function"]

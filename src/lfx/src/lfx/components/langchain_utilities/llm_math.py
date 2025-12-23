@@ -1,4 +1,4 @@
-from langchain.chains import LLMMathChain
+from langchain_classic.chains import LLMMathChain
 
 from lfx.base.chains.model import LCChainComponent
 from lfx.inputs.inputs import HandleInput, MultilineInput
@@ -9,7 +9,7 @@ from lfx.template.field.base import Output
 class LLMMathChainComponent(LCChainComponent):
     display_name = "LLMMathChain"
     description = "Chain that interprets a prompt and executes python code to do math."
-    documentation = "https://python.langchain.com/docs/modules/chains/additional/llm_math"
+    documentation = "https://python.langchain_classic.com/docs/modules/chains/additional/llm_math"
     name = "LLMMathChain"
     legacy: bool = True
     icon = "LangChain"
